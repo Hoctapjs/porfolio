@@ -1,0 +1,46 @@
+Dưới đây là vai trò của từng file JavaScript trong danh sách:
+
+
+1. js/jquery.min.js
+Đây là thư viện jQuery, giúp viết JavaScript ngắn gọn và dễ dàng hơn.
+Hỗ trợ thao tác với DOM, sự kiện, hiệu ứng, AJAX, v.v.
+
+2. js/jquery-migrate-3.0.1.min.js
+Thư viện jQuery Migrate, giúp các mã jQuery cũ hoạt động tốt trên phiên bản jQuery mới hơn.
+
+3. js/popper.min.js
+Thư viện Popper.js, hỗ trợ tooltip và dropdown trong Bootstrap.
+Cần thiết để Bootstrap xử lý các phần tử nổi bật như popovers, tooltips.
+
+4. js/bootstrap.min.js
+JavaScript của Bootstrap, giúp kích hoạt các tính năng như modal, dropdown, carousel, navbar collapse...
+
+5. js/jquery.easing.1.3.js
+Hỗ trợ các hiệu ứng chuyển động mượt mà khi cuộn trang hoặc khi sử dụng animate().
+
+6. js/jquery.waypoints.min.js
+Thư viện Waypoints.js, giúp phát hiện khi một phần tử xuất hiện trong viewport (dùng cho hiệu ứng cuộn).
+Ví dụ: Khi cuộn đến một phần tử, nó có thể kích hoạt animation hoặc số đếm.
+
+7. js/jquery.stellar.min.js
+Thư viện Stellar.js, dùng để tạo hiệu ứng parallax scrolling (nền di chuyển chậm hơn so với nội dung).
+
+8. js/owl.carousel.min.js
+Thư viện Owl Carousel, giúp tạo slider/carousel đẹp mắt.
+
+9. js/jquery.magnific-popup.min.js
+Thư viện Magnific Popup, giúp tạo popup hiển thị hình ảnh, video hoặc nội dung HTML.
+
+10. js/aos.js
+Thuộc thư viện AOS (Animate On Scroll), giúp tạo hiệu ứng khi cuộn trang.
+
+11. js/jquery.animateNumber.min.js
+Hỗ trợ hiệu ứng đếm số động (counter animation).
+Thường dùng cho phần hiển thị số liệu (ví dụ: 1,000+ khách hàng hài lòng).
+
+12. js/scrollax.min.js
+Hỗ trợ hiệu ứng cuộn và hiển thị động cho nội dung khi trang web cuộn.
+
+13. js/main.js
+Đây là file tùy chỉnh chính của dự án.
+Chứa các đoạn mã JavaScript để quản lý chức năng trang web (ví dụ: hiệu ứng navbar, xử lý sự kiện, trigger animation).

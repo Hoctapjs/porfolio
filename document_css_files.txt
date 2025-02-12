@@ -1,0 +1,38 @@
+css/style.css
+Đây là file CSS chính, chứa các quy tắc tùy chỉnh để thiết kế giao diện trang web.
+Xác định màu sắc, bố cục, font chữ, kích thước và các hiệu ứng cho toàn bộ trang.
+
+css/aos.css
+Thuộc thư viện AOS (Animate On Scroll).
+Dùng để tạo hiệu ứng khi cuộn trang (ví dụ: phần tử xuất hiện khi bạn cuộn xuống).
+
+css/flaticon.css
+Chứa các biểu tượng (icons) từ thư viện Flaticon.
+Giúp sử dụng các biểu tượng mà không cần hình ảnh.
+
+css/animate.css
+Thuộc thư viện Animate.css.
+Cung cấp hiệu ứng chuyển động như fade, bounce, zoom-in, slide...
+
+css/ionicons.min.css
+Chứa các biểu tượng từ thư viện Ionicons.
+Ionicons là một bộ icon phổ biến dành cho thiết kế web.
+
+css/magnific-popup.css
+Thuộc thư viện Magnific Popup.
+Dùng để hiển thị popup khi click vào ảnh hoặc video.
+
+css/owl.theme.default.min.css & css/owl.carousel.min.css
+Thuộc thư viện Owl Carousel.
+Dùng để tạo hiệu ứng slider hoặc carousel hiển thị hình ảnh hoặc nội dung.
+
+css/open-iconic-bootstrap.min.css
+Chứa các biểu tượng từ thư viện Open Iconic.
+Tương tự FontAwesome nhưng nhẹ hơn.
+💡 Tóm tắt:
+
+style.css → Thiết kế chính của website.
+aos.css & animate.css → Hiệu ứng chuyển động.
+flaticon.css, ionicons.min.css, open-iconic-bootstrap.min.css → Bộ icon.
+magnific-popup.css → Hiển thị popup.
+owl.carousel.min.css & owl.theme.default.min.css → Slider/carousel.

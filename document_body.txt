@@ -1,0 +1,19 @@
+Trong thẻ <body>, các thuộc tính sau đây đang được sử dụng:
+
+1. data-spy="scroll"
+Thuộc tính này dùng để kích hoạt ScrollSpy, một tính năng của Bootstrap.
+ScrollSpy theo dõi vị trí cuộn của trang và tự động cập nhật trạng thái của các liên kết điều hướng.
+
+2. data-target=".site-navbar-target"
+Xác định mục tiêu của ScrollSpy, tức là thành phần sẽ nhận cập nhật khi cuộn trang.
+Ở đây, .site-navbar-target là một selector CSS trỏ đến thanh điều hướng (navbar), giúp navbar cập nhật mục nào đang active khi cuộn trang.
+
+3. data-offset="300"
+Xác định khoảng cách (tính bằng pixel) trước khi một phần tử trong navbar được đánh dấu là active.
+Ở đây, khi cuộn xuống 300px, ScrollSpy sẽ kích hoạt cập nhật trạng thái trên navbar.
+
+Tóm tắt công dụng
+📌 Khi trang web cuộn, Bootstrap ScrollSpy sẽ:
+✅ Theo dõi vị trí cuộn.
+✅ Tự động cập nhật thanh điều hướng dựa trên phần nội dung đang được xem.
+✅ Tránh cập nhật quá sớm nhờ data-offset="300".

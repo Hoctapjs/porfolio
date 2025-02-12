@@ -1,0 +1,96 @@
+1. Các lớp Bootstrap
+
+navbar
+Định nghĩa phần tử này là một thanh điều hướng (navigation bar).
+
+navbar-expand-lg
+Giúp thanh điều hướng mở rộng trên màn hình lớn (≥992px).
+Nếu màn hình nhỏ hơn lg, menu sẽ thu gọn thành một nút bấm (hamburger menu).
+
+navbar-dark
+Định dạng navbar với màu nền tối và chữ sáng.
+Ngược lại, nếu dùng navbar-light, chữ sẽ có màu tối (phù hợp với nền sáng).
+
+2. Các lớp tùy chỉnh (FTCO Framework)
+
+ftco_navbar
+Lớp này có thể là một lớp tùy chỉnh trong file CSS của dự án (style.css).
+Có thể chứa các hiệu ứng cuộn (sticky navbar), padding, màu sắc...
+
+ftco-navbar-light
+Có thể được sử dụng để định nghĩa một kiểu navbar sáng hơn so với navbar-dark.
+
+site-navbar-target
+Có thể liên kết với tính năng ScrollSpy của Bootstrap để cập nhật trạng thái active của menu khi cuộn trang.
+
+2. id="ftco-navbar"
+ID duy nhất cho navbar, có thể được sử dụng trong JavaScript hoặc CSS.
+Có thể dùng để thêm hiệu ứng sticky hoặc xử lý sự kiện cuộn trang.
+
+--- các thẻ con
+🔹 Thuộc tính
+class="container"
+Bootstrap class để căn giữa nội dung và tạo khoảng cách hai bên.
+
+🔹 Thuộc tính
+class="navbar-brand"
+
+Xác định phần này là thương hiệu/logo của navbar.
+Bootstrap tự động tạo kiểu chữ lớn hơn và đậm hơn.
+href="index.html"
+
+Đường dẫn đến trang chủ của website.
+
+🔹 Thuộc tính
+class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+
+navbar-toggler: Class Bootstrap để xác định đây là nút bật/tắt menu trên màn hình nhỏ.
+js-fh5co-nav-toggle, fh5co-nav-toggle: Các class tùy chỉnh có thể được dùng trong JavaScript để điều khiển hiệu ứng mở/đóng menu.
+type="button"
+
+Xác định đây là một nút bấm.
+data-toggle="collapse"
+
+Bootstrap thuộc tính để điều khiển phần tử có hiệu ứng mở/đóng (collapse).
+data-target="#ftco-nav"
+
+Liên kết với ID của menu để mở menu khi bấm nút.
+aria-controls="ftco-nav"
+
+Hỗ trợ trợ năng (accessibility), xác định menu nào đang được điều khiển.
+aria-expanded="false"
+
+Ban đầu menu đóng, giá trị sẽ đổi thành true khi menu được mở.
+aria-label="Toggle navigation"
+
+Mô tả chức năng của nút cho người dùng có hỗ trợ đọc màn hình.
+
+🔹 Thuộc tính
+class="collapse navbar-collapse"
+
+collapse: Ẩn menu khi chưa bấm nút mở.
+navbar-collapse: Khi nút navbar-toggler được bấm, menu sẽ mở rộng.
+id="ftco-nav"
+
+ID này được sử dụng trong thuộc tính data-target="#ftco-nav" của <button> để điều khiển menu.
+
+🔹 Thuộc tính
+class="navbar-nav nav ml-auto"
+navbar-nav: Xác định đây là danh sách điều hướng trong navbar.
+nav: Tạo kiểu danh sách menu theo Bootstrap.
+ml-auto: Căn menu về bên phải màn hình (margin-left: auto).
+
+🔹 Thuộc tính
+Thẻ <li>
+
+class="nav-item": Xác định mỗi mục trong danh sách menu.
+Thẻ <a>
+
+class="nav-link": Tạo kiểu link theo Bootstrap.
+href="#home-section": Liên kết đến section có id="home-section".
+Các section khác: #about-section, #education-section, #projects-section, #side-projects-section, #blog-section, #contact-section.
+
+📌 Kết luận
+Bootstrap đóng vai trò chính trong navbar này, với các class như navbar, navbar-expand-lg, navbar-dark, collapse, navbar-toggler...
+Có một số class tùy chỉnh như ftco_navbar, ftco-navbar-light, site-navbar-target, có thể kiểm tra trong style.css để hiểu rõ chức năng của chúng.
+Các thuộc tính như data-toggle, data-target, aria-* được dùng để hỗ trợ chức năng mở menu trên thiết bị di động.
