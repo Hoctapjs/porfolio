@@ -1,0 +1,80 @@
+Thẻ <section> này có các thuộc tính sau:
+
+class="hero-wrap js-fullheight"
+
+hero-wrap: Một lớp CSS có thể được sử dụng để định dạng phần "hero" (phần giới thiệu chính trên trang, thường có hình nền lớn, tiêu đề, nút gọi hành động, v.v.).
+js-fullheight: Một lớp CSS hoặc JavaScript có thể dùng để làm cho phần này có chiều cao bằng toàn bộ chiều cao màn hình (full-height).
+Các thuộc tính mặc định của thẻ <section>
+
+Đây là một phần tử HTML dùng để nhóm nội dung có liên quan lại với nhau.
+Không có thuộc tính đặc biệt nào khác theo mặc định ngoài những gì CSS hoặc JavaScript gán thêm cho nó.
+
+--- các thuộc tính của các thẻ con bên trong
+
+2. Thẻ <div class="overlay"></div>
+-->
+Đây là một lớp phủ (overlay), thường dùng để làm mờ hoặc tối phần nền, giúp nội dung hiển thị rõ ràng hơn.
+CSS có thể áp dụng màu sắc, độ trong suốt (opacity), hoặc hiệu ứng nền mờ.
+
+3. Thẻ <div class="container">
+-->
+container: Lớp Bootstrap giúp giới hạn chiều rộng nội dung, đảm bảo bố cục cân đối trên các kích thước màn hình khác nhau.
+
+4. Thẻ <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+-->
+row: Bootstrap Grid System để sắp xếp các cột bên trong.
+no-gutters: Xóa khoảng cách (padding) giữa các cột.
+slider-text: Có thể liên quan đến hiệu ứng chuyển đổi hoặc hoạt ảnh cho văn bản.
+js-fullheight: Một lần nữa, có thể là lớp JavaScript để đảm bảo toàn bộ phần này cao bằng chiều cao màn hình.
+justify-content-center align-items-center:
+justify-content-center: Căn giữa nội dung theo chiều ngang.
+align-items-center: Căn giữa nội dung theo chiều dọc.
+
+5. Thẻ <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+-->
+col-lg-8 col-md-6: Bootstrap Grid, trên màn hình lớn (lg), cột này chiếm 8 phần trong tổng số 12 cột. Trên màn hình trung bình (md), nó chiếm 6 phần.
+ftco-animate: Có thể là lớp CSS/JS dùng để tạo hiệu ứng xuất hiện dần dần khi cuộn trang.
+d-flex align-items-center:
+d-flex: Sử dụng Flexbox.
+align-items-center: Căn giữa nội dung theo trục dọc.
+
+6. Thẻ <div class="text text-center">
+-->
+text: Có thể là lớp CSS để định dạng văn bản, ví dụ như font chữ, màu sắc, khoảng cách dòng.
+text-center: Bootstrap class giúp căn giữa nội dung theo chiều ngang.
+
+7. Các thẻ bên trong div .text
+-->
+
+(a) <span class="subheading">Hey! I am</span>
+subheading: Lớp CSS để định dạng tiêu đề phụ, thường có font chữ nhỏ hơn hoặc màu sắc nhạt hơn.
+
+(b) <h1>구민정</h1>
+Thẻ <h1> hiển thị tên của người dùng (tiếng Hàn).
+
+(c) <h2>I'm a <span class="txt-rotate" data-period="500" data-rotate='["풀스택 개발자", "스타트업 개발자", "6년차"]'></span></h2>
+txt-rotate: Lớp CSS/JS có thể dùng để tạo hiệu ứng thay đổi chữ động.
+data-period="500": Thuộc tính dữ liệu cho biết khoảng thời gian chuyển đổi giữa các từ (500ms).
+data-rotate='[...]': Chứa danh sách các từ sẽ xoay vòng hiển thị, bao gồm:
+"풀스택 개발자" (Full-stack Developer)
+"스타트업 개발자" (Startup Developer)
+"6년차" (6 năm kinh nghiệm)
+
+8. Thẻ <div class="mouse">
+-->
+mouse: Lớp CSS có thể dùng để định dạng biểu tượng cuộn chuột.
+(a) <a href="#" class="mouse-icon">
+mouse-icon: Lớp CSS có thể dùng để tạo hiệu ứng cuộn xuống khi nhấn vào.
+(b) <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+mouse-wheel: Có thể là lớp CSS tạo hiệu ứng bánh xe chuột.
+<span class="ion-ios-arrow-round-down"></span>:
+ion-ios-arrow-round-down: Một icon từ thư viện Ionicons, hiển thị mũi tên hướng xuống.
+Tóm tắt
+📌 Mục đích của <section> này: Hiển thị phần hero với tên, nghề nghiệp, và hiệu ứng văn bản động.
+📌 Các lớp CSS/JS quan trọng:
+
+hero-wrap, js-fullheight: Quản lý chiều cao và nền của phần hero.
+container, row, col-lg-8: Bố cục linh hoạt với Bootstrap.
+slider-text, ftco-animate: Hoạt ảnh khi cuộn.
+txt-rotate: Hiệu ứng thay đổi văn bản.
+mouse, mouse-icon: Biểu tượng cuộn chuột.
